@@ -10,7 +10,7 @@ call.capitalize + "!"
 end
 end
 
-def long_planeteer_calls
+def long_planeteer_calls(planteer_calls)
   answer = false 
 planteer_calls.each do |call|
   if call.length > 4 
